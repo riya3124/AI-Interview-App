@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Interview Preparation Agent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>🤖 AI Interview Preparation Agent</h1>
+
+  <select id="domain">
+    <option value="">Select Domain</option>
+    <option value="qa">QA Tester</option>
+    <option value="pm">Project Manager</option>
+    <option value="dev">Developer</option>
+  </select>
+
+  <button onclick="startInterview()">Start Interview</button>
+
+  <div id="questionBox"></div>
+
+  <textarea id="answer" placeholder="Write your answer..."></textarea>
+
+  <button onclick="submitAnswer()">Submit Answer</button>
+
+  <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
